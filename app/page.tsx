@@ -14,20 +14,20 @@ export default function Home() {
         </div>
 
         {/* NAVIGATION LINKS */}
-        <ul className={"list-none p-0 m-0 flex items-center justify-center gap-0"}>
-          <li className={"text-white font-medium py-3 hover:bg-white/20 transsition-all cursor-pointer text-xs px-2.5 border-l-[0.5px]  border-r-[0.5px] border-[#CCCCCC]"}>
+        <ul className={"list-none p-0 m-0 flex items-center justify-center gap-0 h-12"}>
+          <li className={"self-stretch flex items-center text-white font-medium hover:bg-white/20 transition-all cursor-pointer text-xs px-2.5 border-l-[0.5px] border-r-[0.5px] border-[#CCCCCC]"}>
             ABOUT ME
           </li>
-          <li className={"text-gray-400 font-medium py-3 hover:bg-gray-400/20 transsition-all cursor-pointer text-xs px-2.5 border-r-[0.5px] border-[#CCCCCC]"}>
+          <li className={"self-stretch flex items-center text-white font-medium hover:bg-white/20 transition-all cursor-pointer text-xs px-2.5 border-l-[0.5px] border-r-[0.5px] border-[#CCCCCC]"}>
             TECH STACK
           </li>
-          <li className={"text-gray-400 font-medium py-3 hover:bg-gray-400/20 transsition-all cursor-pointer text-xs px-2.5 border-r-[0.5px] border-[#CCCCCC]"}>
+          <li className={"self-stretch flex items-center text-white font-medium hover:bg-white/20 transition-all cursor-pointer text-xs px-2.5 border-l-[0.5px] border-r-[0.5px] border-[#CCCCCC]"}>
             PROJECTS
           </li>
-          <li className={"text-gray-400 font-medium py-3 hover:bg-gray-400/20 transsition-all cursor-pointer text-xs px-2.5 border-r-[0.5px] border-[#CCCCCC]"}>
+          <li className={"self-stretch flex items-center text-white font-medium hover:bg-white/20 transition-all cursor-pointer text-xs px-2.5 border-l-[0.5px] border-r-[0.5px] border-[#CCCCCC]"}>
             CERTIFICATES
           </li>
-          <li className={"text-gray-400 font-medium py-3 hover:bg-gray-400/20 transsition-all cursor-pointer text-xs px-2.5 border-r-[0.5px] border-[#CCCCCC]"}>
+          <li className={"self-stretch flex items-center text-white font-medium hover:bg-white/20 transition-all cursor-pointer text-xs px-2.5 border-l-[0.5px] border-r-[0.5px] border-[#CCCCCC]"}>
             TESTIMONIALS
           </li>
 
@@ -35,7 +35,7 @@ export default function Home() {
 
         {/* CV */}
         <div className={"list-none p-0 m-0 flex items-center justify-center gap-0"}>
-          <div className={"text-white py-3 hover:bg-white/20 transsition-all cursor-pointer font-medium text-xs px-2.5 border-l-[0.5px]  border-r-[0.5px] border-[#CCCCCC]"}>
+          <div className={"self-stretch flex items-center text-white font-medium hover:bg-white/20 transition-all cursor-pointer text-xs px-2.5 border-l-[0.5px] border-r-[0.5px] border-[#CCCCCC]"}>
             CHECK MY CV
           </div>
           <div className={"text-gray-400 py-3 flex items-center justify-center hover:bg-gray-400/20 transsition-all cursor-pointer font-medium text-xs px-2.5 border-r-[0.5px] border-[#CCCCCC]"}>
