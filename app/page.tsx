@@ -68,6 +68,26 @@ export default function Home() {
         <div className={"w-full border-b-[0.5px] border-r-[0.5px] border-black h-full bg-none"}></div>
         <div className={"w-full max-w-[43%] border-b-[0.5px] border-r-[0.5px] border-black h-full bg-[#FF2D00]"}></div>
       </div>
+      {/* STATS */}
+      <div className={"w-full flex items-center relative justify-center h-[115px]"}>
+        <div className={"w-full flex items-center border-b-[0.5px] px-[60px] border-r-[0.5px] border-black h-full bg-none"}>
+          <p className={" font-light text-md leading-relaxed text-black"}>We engineer automated bioprocessing platforms for gene therapy, cell therapy, and high-throughput discovery — built to maintain sterility, traceability, and compliance from vial to batch.</p>
+        </div>
+        <div className={"w-full flex items-center justify-center gap-0 max-w-[43%] border-b-[0.5px] border-r-[0.5px] border-black h-full"}>
+          <div className={"w-full flex flex-col gap-0 items-center justify-center p-5 border-r-[0.5px] border-black h-full"}>
+            <h3 className={"text-[64px] font-bold leading-none text-black"}>30<span className={"text-[#FF2D00]"}>+</span></h3>
+            <p className={"text-sm font-light text-black"}>PROJECTS SHIPPED</p>
+          </div>
+          <div className={"w-full flex flex-col gap-0 items-center justify-center p-5 border-r-[0.5px] border-black h-full"}>
+            <h3 className={"text-[64px] font-bold leading-none text-black"}>200</h3>
+            <p className={"text-sm font-light text-black"}>GITHUB STARS</p>
+          </div>
+          <div className={"w-full flex flex-col gap-0 items-center justify-center p-5 border-r-[0.5px] border-black h-full"}>
+            <h3 className={"text-[64px] font-bold leading-none text-black"}>4<span className={"text-[#FF2D00]"}>+</span></h3>
+            <p className={"text-sm font-light text-black"}>YEARS EXPERIENCE</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
