@@ -48,7 +48,23 @@ export default function Home() {
       </nav>
 
       {/* HERO SECTION */}
-      <div className={"w-full flex items-center justify-center h-133 gap-0"}>
+      <div className={"w-full flex items-center relative justify-center h-133 gap-0"}>
+        <div className={"w-full p-15 absolute inset-0 h-full"}>
+
+          <div className={"relative"}>
+            <div className={"relative"}>
+              <h1 className={"text-[200px] leading-none font-anton text-black whitespace-nowrap"}>RONAN SANICO</h1>
+              <h1 className={"text-[200px] leading-none font-anton text-black whitespace-nowrap"}>DEVELOPER.</h1>
+            </div>
+
+            <div className={"absolute inset-0 ml-7"}>
+              <h1 style={{ WebkitTextStroke: '2px #000000' }} className={"text-[200px] text-transparent leading-none mt-2.5 font-anton whitespace-nowrap"}>RONAN SANICO</h1>
+              <h1 style={{ WebkitTextStroke: '2px #000000' }} className={"text-[200px] text-transparent leading-none mt-2.5 font-anton whitespace-nowrap"}>DEVELOPER.</h1>
+            </div>
+          </div>
+
+
+        </div>
         <div className={"w-full border-b-[0.5px] border-r-[0.5px] border-black h-full bg-none"}></div>
         <div className={"w-full max-w-[43%] border-b-[0.5px] border-r-[0.5px] border-black h-full bg-[#FF2D00]"}></div>
       </div>
